@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<!-- document head -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" href="css/tablet.css"
+          media="screen and (max-width: 900px)">
+    <script src="scripts/rotate.js"></script>
+    <script src="scripts/menus.js"></script>
+    <script src="scripts/feedbackFormValidate.js"></script>
+    <title>Nature's Source - Canada's largest specialty vitamin store</title>
+  </head>
+  <!-- index.html for ch07/nature2 -->
+  <body onload="startRotation()">
+    <header>
+      <!-- logo -->
+      <div id="logo">
+          <img src="images/naturelogo.gif"
+               alt="Nature's Source"
+               width="608"
+               height="90">
+      </div>
+  <!-- menus -->
+    <nav onmouseout="hide()">
+      <ul class="Links">
+        <li><a href="index.html" onmouseover="show('m1')">Home</a></li>
+        <li><a href="estore.html"
+               onmouseover="show('m2')">e-store</a></li>
+        <li>
+          <span onmouseover="show('m3')">Products+Services</span> 
+          <div id="m3" onmouseover="show('m3')">
+            <a href="catalog.html">Product Catalog</a>
+            <a href="featured.html">Featured Products</a>
+          </div>
+        </li>
+        <li>
+          <span onmouseover="show('m4')">Your Health</span> 
+          <div id="m4" onmouseover="show('m4')">
+            <a href="expert.html">Ask An Expert</a>
+            <a href="links.html">Useful Links</a>
+          </div>
+        </li>
+        <li>
+          <span onmouseover="show('m5')">About Us</span> 
+          <div id="m5" onmouseover="show('m5')">
+            <a href="about.html">Nature's Source</a>
+            <a href="vision.html">Vision+Mission</a>
+          </div>
+        </li>
+        <li>
+          <span onmouseover="show('m6')">Contact Us</span> 
+          <div id="m6" onmouseover="show('m6')">
+            <a href="feedbackForm.html">Feedback Form</a>
+          </div>
+        </li>
+        <li><a href="sitemap.html" onmouseover="show('m7')">Site
+        Map</a></li>
+      </ul>
+    </nav>
+    </header>
+    <main>
+      <article id="textLeft">
+        <h3>Welcome to Nature's Source:<br>
+          Protecting your health naturally!</h3>
+        <p>Founded in 1998, Nature's Source was created to serve those who
+        use alternative healing methods. Offering only the highest quality
+        vitamins, minerals, supplements and herbal remedies, Nature's
+        Source takes great pride in helping people live healthier, happier
+        lives.</p>
+        <p>Many companies that talk about customer service fail to deliver.
+        Nature's Source exists to truly serve all the needs of their
+        customers. Each location features dedicated on-site therapists
+        along with knowledgeable staff who ensure that every customer
+        receives the best quality information available. Continuing
+        education seminars are a regular event at Nature's Source.</p>
+      </article>
+      <div id="image">
+        <img id="placeholder" src="x"
+             alt="Healthy Lifestyle"
+             width="256" height="256">
+      </div>
+    </main>
+    <footer>
+      <!-- footer_content -->
+      Nature's Source &copy; 2015 Porter Scobey and Pawan Lingras
+    </footer>
+  </body>
+</html>
